@@ -41,4 +41,27 @@ Share with me the google colab link with your code for your final project
 
 Remember please: Don’t leave writing to the last minute, I expect well-written work that has been through several drafts. 
 
+A checklist for a good literature review
+- Know the literature. Motivate your work in the context of prior work and existing problems. 
+- Don’t plagiarize. I can’t stress this enough. It’s not ok to copy complete sentences from other papers. The best way to make sure you don’t plagiarize is to read the related work and summarize it in your own words (emphasizing the points more pertinent to your paper) in a document, and then consult the document when you write the related work section. Summarizing a paper right after you read it would also help you describe it in your paper in the context of your own work. I’ve seen cases of vague descriptions of prior work, sometimes using completely different terminology, only to google these sentences and find they were “borrowed” from the abstract of said paper. Needless to say, don’t cite papers without reading them.
+
+A checklist for a good research paper: 
+- Specifies the mathematical/biological questions precisely.
+- Lists all model assumptions and their justification.
+- References sources of imported information
+- Explains how numerical values used in calculations were decided on (even if just to say random)
+- Shows and justifies all mathematical working.
+- Interprets computational results in terms of the real-world problem
+- Evaluates the results. Does your answer make sense? Does it help to answer the problem?
+- Lists what else you could do if you had the time
+
+As you're exploring your model, getting from point A to point B might have included many detours along the way, but your research paper should describe the work as a straight line, with a logical sequence.
+You paper should not describe what you did chronologically, it’s more important to describe it in an order that is logical and easy to understand.
+
+Language
+- Keep it simple. It is very frustrating when papers use overly complicated language. Aim to write papers that can be understood by anyone in NLP, regardless of their subarea.
+- Don’t try to sound smart. There is no need to use “sophisticated” words like utilize instead of use. It doesn’t make you sound smarter or more academic.
+- Be concise. One of the advantages of the page limit in conference (and some journal) papers is that it encourages conciseness. Don’t repeat your point within the same section (repeating some important points in the abstract, introduction, and the body of the paper is ok). Don’t go back and forth between topics. Don’t use vacuous words like distinct (as in “we evaluated our method on 5 distinct datasets” — it’s implied that the 5 datasets are not the same) and novel (as in “we’re proposing a novel method” — of course you’re not proposing an existing method).
+- Be clear and specific. I was going to write “don’t write abstract or vague sentences”, but I realize this is an abstract and vague recommendation. So instead, let me be more specific: add examples. I especially like papers that follow the same example throughout the paper. For example, in Coil and Shwartz (2023), we ran with the “crocodile chocolate” example from the title, through the abstract and introduction, all the way to the analysis. But different examples are also ok. Please include examples!
+- Don’t write overly long sentences. This advice applies to any genre of writing. It’s cognitively difficult to understand long sentences. Split them into multiple short sentences.
 
