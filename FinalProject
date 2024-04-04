@@ -1,0 +1,44 @@
+The goal of your final paper project is to write a paper that both: 
+is a short literature review of your topic, and
+computationally explores a topic of your choice
+We will begin to work on your final papers on April 16, so you will have a total of 3 weeks to work on your final projects. They are due May 11.
+
+Topic choice
+Chose a topic from the following list (multiple students may work on the same topic but you have to do individual studies/papers): 
+Module 1:
+1. Explore the SIR epidemic model. Explore the infected, susceptible, and recovered populations as a function of time for different input parameters to the model. Explore different parameters to observe how they affect the length and peak of the outbreak. Think about how you would implement interventions like social isolation or immunization in your model - play around with these as well to see the consequences! 
+2. Explore the “competitive lotka-volterra equations” where two species compete for a common resource. Explore your model by inputting different values for parameters and using different initial conditions.
+Module 2:
+1. Lévy flight vs Brownian motion: for what prey distribution are each search strategy sufficient? (papers cited in the abstract of this paper)
+2. Collective motion: in a collection of 2D random walkers that start at different locations in different directions, if two random walkers collide with each other, they will both move off in the same direction which is the vector sum of their directions before the collision. https://www.youtube.com/watch?v=zUGgNPcmRms&t=1890s
+Module 3: 
+1. Learn about linear stability analysis of reaction-diffusion equations and then explore the different patterns you can find in turing patterns (and match them to some patterns you see in nature!)
+I like this recourse a lot, but be careful, there are a lot of small math typos https://math.libretexts.org/Bookshelves/Scientific_Computing_Simulations_and_Modeling/Book%3A_Introduction_to_the_Modeling_and_Analysis_of_Complex_Systems_(Sayama)/14%3A_Continuous_Field_Models_II__Analysis/14.04%3A_Linear_Stability_Analysis_of_Reaction-Diffusion_Systems
+This is another resource: https://github.com/ijmbarr/turing-patterns/blob/master/turing-patterns.ipynb
+2. Explore the Gierer-Meinhardt model
+
+Module 4:
+1. Create a cellular automaton model to describe patterns on seashells
+2. Create an agent-based model for the SIR model
+
+
+Paper details
+There are two types of papers one can publish: 1. Review article, and 2. Research article. In a review article, authors write a holistic review of a topic of their choice from the current available literature. Their goal is to write something that another person who is not as familiar with the field can read to understand that topic better without having to read a lot of other papers. There is no new research in this type of article. The first part of your paper will mimic this type of review article. In a research article, authors write up their new research findings. They either describe new experiments they have done or a new model they have developed (or both!). The second part of your paper will mimic this type of research article.
+
+Here are some rules you should follow for writing your paper:
+- Read 7-10 papers, 3-5 of which can be review articles themselves. You can look at tutorials on google.
+- Your paper should be between 5-7 pages long, single-spaced, 1 inch margins, 11-12 pt arial font, not including figures or references.
+- The sections you should include:
+    1. Literature review: this is where you will review the current literature in the topic you’ve chosen. You should create topic-specific subsections of your choice. This should be roughly 2 - 3 pages long.
+    2. Research: this is where you will explain the topic of your choice, the computational modeling you have done and your results and conclusion from that modeling. You need to include the following sections:
+      a. Introduction (what are you choosing to model, why, what is your hypothesis?) (0.5 page)
+      b. Methods (what computational methods did you use?) (0.5 page)
+      c. Results (what are the results of your models? Break this up into sections that make sense to you!) (1.5 - 2.5 pages)
+      d. Conclusion (what can you conclude about your findings?) (0.5 page)
+      e. Figures (include the following figures: 1. A picture representing your topic, 2. A flow diagram representing what you did in your modeling, 3. Graphs, tables of your results, 4. A picture of your results if there is anything visual to show) 
+      f. References (include references in any format you like) 
+Share with me the google colab link with your code for your final project
+
+Remember please: Don’t leave writing to the last minute, I expect well-written work that has been through several drafts. 
+
+
